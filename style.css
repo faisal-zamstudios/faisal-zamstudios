@@ -276,6 +276,10 @@
     background-color: #fff;
 }
 
+.checkbox-primary:checked {
+    border: 1px solid #615EFF !important;
+}
+
 .checkbox:checked:before {
    position: absolute;
    left: 1.5px;
@@ -287,6 +291,10 @@
    font-family: Arial;
    font-size: 12px;
    font-weight: 800;
+}
+
+.checkbox-primary:checked:before {
+    color: #615EFF !important;
 }
 
 .checkbox-circle:checked:before {
@@ -376,7 +384,15 @@ input:checked + .slider:before {
     opacity: 0;
 }
 
+.daterange {
+    display: contents !important;
+    content: "Dec 11, 2021" !important;
+    initial-value: "Dec 11, 2021" !important;
+}
 
+.link-hover div div:hover {
+    color: #615EFF;
+}
 
 @media screen and (max-width: 1450px) {
     .box-height-240 {
