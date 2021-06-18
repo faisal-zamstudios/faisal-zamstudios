@@ -265,6 +265,14 @@
     cursor: pointer;
 }
 
+.checkbox-primary:checked:before {
+    color: #615EFF !important;
+}
+
+.checkbox-primary:checked {
+    border: 1px solid #615EFF !important;
+}
+
 .checkbox-circle {
     border-radius: 50% !important;
     width: 20px !important;
@@ -274,10 +282,6 @@
 .checkbox:checked {
     border: 1px solid #44B328;
     background-color: #fff;
-}
-
-.checkbox-primary:checked {
-    border: 1px solid #615EFF !important;
 }
 
 .checkbox:checked:before {
@@ -291,10 +295,6 @@
    font-family: Arial;
    font-size: 12px;
    font-weight: 800;
-}
-
-.checkbox-primary:checked:before {
-    color: #615EFF !important;
 }
 
 .checkbox-circle:checked:before {
