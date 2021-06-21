@@ -86,6 +86,10 @@
     border-radius: 10px;
 }
 
+.sbar button {
+    background: #F0F1F3 !important;
+}
+
 .sbar-input {
     text-align: left !important;
     height: 42px;
@@ -106,7 +110,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    border-radius: 10px;
+    border-radius: 9px;
 }
 
 .box-height-240 {
@@ -393,6 +397,11 @@ input:checked + .slider:before {
 .link-hover div div:hover {
     color: #615EFF;
 }
+
+div.link-hover div div ul li a button:hover {
+    border: 2px solid #615EFF !important;
+    box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
+} 
 
 @media screen and (max-width: 1450px) {
     .box-height-240 {
