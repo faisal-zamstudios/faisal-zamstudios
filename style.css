@@ -80,7 +80,6 @@
 }
 
 .sbar {
-    height: 42px;
     background: #F0F1F3 !important;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
     border-radius: 10px;
@@ -92,7 +91,7 @@
 
 .sbar-input {
     text-align: left !important;
-    height: 42px;
+    height: 100% !important;
     background: #F0F1F3 !important;
     border: none;
     outline: none;
@@ -105,7 +104,7 @@
 
 .add-client-btn {
     width: 254px; 
-    height: 49px; 
+    height: 49px;
     background: #615EFF !important; 
     font-weight: 500;
     font-size: 14px;
