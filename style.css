@@ -110,6 +110,8 @@
     font-size: 14px;
     line-height: 16px;
     border-radius: 9px;
+    margin-left:35px;
+    padding-left: 35px;
 }
 
 .box-height-240 {
@@ -145,6 +147,11 @@
 .fs-17 {
     font-size: 17px;
     line-height: 19px;
+}
+
+.fs-18 {
+    font-size: 18px;
+    line-height: 20px;
 }
 
 .fw-400 {
@@ -355,6 +362,7 @@ input:focus + .slider {
     box-shadow: 0 0 1px #615EFF;
 }
 
+
 input:checked + .slider:before {
     -webkit-transform: translateX(19px);
     -ms-transform: translateX(19px);
@@ -371,7 +379,7 @@ input:checked + .slider:before {
 }
 
 .drag-drop {
-    background:rgba(97, 94, 255, 0.05);
+    background: rgba(97, 94, 255, 0.05);
     border: 1.5px dashed rgba(97, 94, 255, 0.4);
     border-radius: 15px;
     position: relative;
@@ -425,7 +433,9 @@ div.link-hover div div a button:hover {
     }
 
     .add-client-btn {
-        width: 210px;
+        width: 230px;
+        margin-left: 30px;
+        padding-left: 20px;
     }
 
     .client-text {
@@ -458,6 +468,11 @@ div.link-hover div div a button:hover {
         line-height: 11px;
         margin-top: 14px;
     }
+    
+    .add-client-btn {
+        width: 190px;
+    }
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -491,12 +506,17 @@ div.link-hover div div a button:hover {
         padding-left: 10px;
     }
 
+    .sbar {
+        height: 38px !important;
+    }
+    
     .add-client-btn {
-        width: 190px; 
-        height: 40px; 
-        margin: 10px;
+        width: 160px; 
+        height: 35px; 
         font-size: 12px;
         line-height: 14px;
+        margin-left: 15px;
+        padding-left: 20px;
     }
 
     .client-text {
@@ -529,6 +549,11 @@ div.link-hover div div a button:hover {
         line-height: 17px;
     }
 
+    .fs-18 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
 }
 
 @media screen and (max-width: 890px) {
@@ -551,6 +576,10 @@ div.link-hover div div a button:hover {
         margin-top: 05px;
     }
 
+    #tabsJustified li .cat.active {
+        padding-right: 30px !important;
+    }
+    
     .sub-cat {
         margin-left: 06px;
         font-size: 10px; 
@@ -567,12 +596,16 @@ div.link-hover div div a button:hover {
         padding-left: 12px !important;
     }
 
+    .sbar {
+        height: 35px !important;
+    }
+    
     .add-client-btn {
-        width: 155px; 
-        height: 40px; 
-        margin: 10px;
+        width: 140px;
         font-size: 10px;
         line-height: 12px;
+        margin-left: 05px;
+        padding-left: 0px;
     }
 
     .add-client-btn img {
@@ -620,6 +653,11 @@ div.link-hover div div a button:hover {
     .fs-17 {
         font-size: 13px;
         line-height: 15px;
+    }
+
+    .fs-18 {
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .tbl thead tr td {
