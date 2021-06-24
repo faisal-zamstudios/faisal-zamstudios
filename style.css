@@ -288,8 +288,8 @@ label {
 
 .checkbox-primary:checked:before {
     color: #615EFF !important;
-    top: 2px !important;
-    left: 2px !important;
+    top: 1.5px !important;
+    left: 2.5px !important;
 }
 
 .checkbox-primary:checked {
@@ -486,6 +486,10 @@ div.link-hover div div a button:hover {
         width: 190px;
     }
 
+    .drag-drop1 {
+        height: 90% !important;
+    }
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -567,6 +571,17 @@ div.link-hover div div a button:hover {
         font-size: 16px;
         line-height: 18px;
     }
+    
+    .pd-inp {
+        padding: 3px !important;
+        padding-left: 6px !important;
+        height: 31px !important;
+    }
+
+    .pd-sel {
+        padding: 2px !important;
+        height: 30px !important;
+    }
 
 }
 
@@ -646,10 +661,6 @@ div.link-hover div div a button:hover {
         height: 180px;
     }
 
-    .drag-drop1 {
-        height: 90% !important;
-    }
-
     .p-3 {
         padding: 10px !important;
     }
@@ -715,6 +726,7 @@ div.link-hover div div a button:hover {
     }
 
     .bton {
+        width: 67px !important;
         height: 26px !important;
     }
 
