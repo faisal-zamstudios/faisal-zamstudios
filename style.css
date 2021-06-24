@@ -111,6 +111,7 @@
     line-height: 16px;
     border-radius: 9px;
     margin-left:35px;
+    margin-right:15px;
     padding-left: 35px;
 }
 
@@ -275,8 +276,15 @@
     cursor: pointer;
 }
 
+.checkbox-primary {
+    width: 18px !important;
+    height: 18px !important;
+}
+
 .checkbox-primary:checked:before {
     color: #615EFF !important;
+    top: 2px !important;
+    left: 2px !important;
 }
 
 .checkbox-primary:checked {
@@ -291,7 +299,7 @@
 
 .checkbox:checked {
     border: 1px solid #44B328;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .checkbox:checked:before {
@@ -517,6 +525,7 @@ div.link-hover div div a button:hover {
         line-height: 14px;
         margin-left: 15px;
         padding-left: 20px;
+        margin-right: 5px;
     }
 
     .client-text {
@@ -601,10 +610,11 @@ div.link-hover div div a button:hover {
     }
     
     .add-client-btn {
-        width: 140px;
+        width: 135px;
         font-size: 10px;
         line-height: 12px;
-        margin-left: 05px;
+        margin-left: 8px;
+        margin-right: 4px;
         padding-left: 0px;
     }
 
@@ -631,18 +641,27 @@ div.link-hover div div a button:hover {
         height: 180px;
     }
 
+    .drag-drop1 {
+        height: 90% !important;
+    }
+
     .p-3 {
         padding: 10px !important;
     }
-    
+
+    .pd-set {
+        padding: 2px !important;
+        height: 25px !important;
+    }
+
     .fs-12 {
         font-size: 09px;
         line-height: 11px;
     }    
 
     .fs-14 {
-        font-size: 11px;
-        line-height: 13px;
+        font-size: 10px;
+        line-height: 12px;
     }
     
     .fs-16 {
@@ -673,6 +692,17 @@ div.link-hover div div a button:hover {
         padding-top: 5px !important;
         padding-bottom: 5px !important;
     }
+
+    .checkbox-primary {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    .checkbox-primary:checked:before {
+        top: 0px !important;
+        left: 0px !important;
+    }
+
 
 }
 
