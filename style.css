@@ -486,8 +486,8 @@ div.link-hover div div a button:hover {
         width: 190px;
     }
 
-    .drag-drop1 {
-        height: 90% !important;
+    .p-4 {
+        padding: 16px !important;
     }
 
 }
@@ -497,6 +497,10 @@ div.link-hover div div a button:hover {
         height: 200px;
     }
 
+    .drag-drop1 {
+        height: 100% !important;
+    }
+    
     #tabsJustified li {
         margin-top: 2px;
     }
@@ -547,6 +551,14 @@ div.link-hover div div a button:hover {
         padding: 05px !important;
     }
     
+    .p-3 {
+        padding: 12px !important;
+    }
+
+    .p-4 {
+        padding: 12px !important;
+    }
+
     .fs-12 {
         font-size: 10px;
         line-height: 12px;
@@ -576,6 +588,11 @@ div.link-hover div div a button:hover {
         padding: 3px !important;
         padding-left: 6px !important;
         height: 31px !important;
+    }
+
+    .bton {
+        width: 80px !important;
+        height: 30px !important;
     }
 
     .pd-sel {
