@@ -741,11 +741,6 @@ div.link-hover div div a button:hover {
         padding: 10px !important;
     }
     
-    .form-control.pl-2.pr-2.pt-3.pb-3.br-10.mx-auto.my-auto {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-    }
-
     .h-35 {
         height: 30px !important;
     }
@@ -898,12 +893,6 @@ div.link-hover div div a button:hover {
 
     .tbl tbody tr td {
         padding: 15px;
-    }
-
-    div.adj-pad div div {
-        padding: 0px !important;
-        padding-top: 5px !important;
-        padding-bottom: 5px !important;
     }
 
     .checkbox-primary {
