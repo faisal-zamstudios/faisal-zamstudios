@@ -239,7 +239,7 @@ label {
 
 @media (min-width: 700px) {
     .modal-dialog {
-        max-width: 450px;
+        max-width: 500px;
         margin: 2.75rem auto;
     }
 }
@@ -304,14 +304,16 @@ label {
 }
 
 .dropdown-menu li div label {
-    vertical-align: middle !important;
     margin-left: 5px;
+    margin-top: 7px !important;
+    margin-bottom: 7px !important;
 }
 
 .dropdown-menu.show {
-    top:30px !important;
-    height: 180px;
+    top:40px !important;
+    height: 200px;
     border-radius: 10px;
+    border: none;
 }
 
 .checkbox {
@@ -474,6 +476,12 @@ div.link-hover div div a button:hover {
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.03);
 } 
 
+.pd-inp {
+    padding: 3px !important;
+    padding-left: 6px !important;
+    height: 38px !important;
+}
+
 @media screen and (max-width: 1450px) {
     .box-height-240 {
         height: 220px;
@@ -574,9 +582,6 @@ div.link-hover div div a button:hover {
 }
 
 @media screen and (max-width: 1080px) {
-    .box-height-240 {
-        height: 200px;
-    }
 
     .container-fluid .drag-drop1 {
         height: 130px !important;
@@ -631,7 +636,7 @@ div.link-hover div div a button:hover {
     }
 
     .add-client-btn1 {
-        width: 220px; 
+        width: 200px; 
         height: 35px; 
         font-size: 12px;
         line-height: 14px;
@@ -648,10 +653,6 @@ div.link-hover div div a button:hover {
         padding: 05px !important;
     }
     
-    .mr-4 {
-        margin-right: 0 !important;
-    }
-
     .p-3 {
         padding: 12px !important;
     }
@@ -798,7 +799,7 @@ div.link-hover div div a button:hover {
     }
 
     .add-client-btn1 {
-        width: 145px;
+        width: 185px;
         font-size: 9px;
         line-height: 11px;
         margin-left: 8px;
@@ -831,7 +832,7 @@ div.link-hover div div a button:hover {
     }
 
     .box-height-240 {
-        height: 180px;
+        height: 200px;
     }
 
     .modal-body {
