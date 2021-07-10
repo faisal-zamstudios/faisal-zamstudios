@@ -53,6 +53,10 @@
 
 .cat {
     font-size: 17px; 
+    height: 49px;
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: start;
     line-height: 20px;
     padding: 10px !important;
     padding-left: 18px !important;
@@ -124,8 +128,15 @@
     line-height: 16px;
     border-radius: 9px;
     margin-left:35px;
-    margin-right:15px;
     padding-left: 35px;
+}
+
+.date-range {
+    min-width: 229px; 
+    height: 49px; 
+    border-radius: 10px; 
+    color: #200E32;
+    background: white;
 }
 
 .box-height-240 {
@@ -334,6 +345,24 @@ label {
     cursor: pointer;
 }
 
+.checkbox:checked {
+    border: 1px solid #44B328;
+    background-color: transparent;
+}
+
+.checkbox:checked:before {
+   position: absolute;
+   left: 1.5px;
+   top: -1.5px;
+   display: block;
+   content: '\2713';
+   text-align: center;
+   color: #44B328;
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: 800;
+}
+
 .checkbox-primary {
     width: 18px !important;
     height: 18px !important;
@@ -353,24 +382,6 @@ label {
     border-radius: 50% !important;
     width: 20px !important;
     height: 20px !important;
-}
-
-.checkbox:checked {
-    border: 1px solid #44B328;
-    background-color: transparent;
-}
-
-.checkbox:checked:before {
-   position: absolute;
-   left: 1.5px;
-   top: -1.5px;
-   display: block;
-   content: '\2713';
-   text-align: center;
-   color: #44B328;
-   font-family: Arial;
-   font-size: 12px;
-   font-weight: 800;
 }
 
 .checkbox-circle:checked:before {
@@ -621,13 +632,8 @@ div.link-hover div div a button:hover {
         padding-left: 10px;
     }
 
-    .sbar {
-        height: 38px !important;
-    }
-    
     .add-client-btn {
         width: 160px; 
-        height: 35px; 
         font-size: 12px;
         line-height: 14px;
         margin-left: 15px;
@@ -637,12 +643,15 @@ div.link-hover div div a button:hover {
 
     .add-client-btn1 {
         width: 200px; 
-        height: 35px; 
         font-size: 12px;
         line-height: 14px;
         margin-left: 20px;
         padding-left: 20px;
         margin-right: 5px;
+    }
+
+    .date-range {
+        min-width: 200px;
     }
 
     .client-text {
@@ -736,6 +745,11 @@ div.link-hover div div a button:hover {
 }
 
 @media screen and (max-width: 890px) {
+    
+    .date-range {
+        min-width: 165px;
+    }
+
     .cat {
         font-size: 13px; 
         line-height: 15px;
@@ -779,10 +793,6 @@ div.link-hover div div a button:hover {
         padding-left: 20px !important;
     }
 
-    .sbar {
-        height: 35px !important;
-    }
-    
     .add-client-btn {
         width: 135px;
         font-size: 10px;
@@ -794,12 +804,10 @@ div.link-hover div div a button:hover {
 
     .add-client-btn img {
         margin-left: 8px !important;
-        width: 13% !important;
-        height: 70% !important;
     }
 
     .add-client-btn1 {
-        width: 185px;
+        width: 155px;
         font-size: 9px;
         line-height: 11px;
         margin-left: 8px;
@@ -809,17 +817,11 @@ div.link-hover div div a button:hover {
 
     .add-client-btn1 img {
         margin-left: 8px !important;
-        width: 11% !important;
-        height: 70% !important;
     }
 
     .sbar {
         height: 32px;
         margin-left: 15px !important;
-    }
-    
-    .sbar-input {
-        height: 32px;
     }
     
     .three-dots {
@@ -832,7 +834,7 @@ div.link-hover div div a button:hover {
     }
 
     .box-height-240 {
-        height: 200px;
+        height: 180px;
     }
 
     .modal-body {
