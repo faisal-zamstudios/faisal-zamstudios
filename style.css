@@ -3,6 +3,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Amalfi Coast';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amalfi Coast'), url('https://fonts.cdnfonts.com/s/30779/Amalfi Coast.woff') format('woff');
+}
+
 .nav-pills .nav-link.active {
     background-color: #ffffff !important;
 }
